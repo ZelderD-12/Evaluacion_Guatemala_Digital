@@ -1,4 +1,0 @@
-select top 1 a.Nombre from Categoria as a
-inner join Producto as b ON a.CodigoCategoria = b.CodigoCategoria
-inner join Venta as c ON b.CodigoProducto = c.CodigoProducto
-order by c.Fecha desc
